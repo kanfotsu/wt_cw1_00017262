@@ -1,0 +1,426 @@
+@import 'bootstrap-grid.css';
+@import 'fonts.css';
+
+:root {
+    --m_pro: 'MyraidPro';
+    --mons_r: 'Montserrat-r';
+    --mons_t: 'Montserrat-thin';
+    --mons-m: 'Montserrat-medium';
+    --nunito: 'Nunito';
+    --works: 'work_s';
+    --green: #bda126;
+    --black: #000;
+    --white: #fff;
+    --gray: #787878;
+    --dark_white: #f5f5f5;
+}
+
+*,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: var(--nunito);
+    font-weight: normal;
+    color: white;
+    font-size: 16px;
+    color: inherit;
+
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+img {
+    width: 100%;
+}
+
+header {
+    width: auto;
+
+}
+
+.header_nav {
+    padding: 15px 0;
+    margin-bottom: 0;
+}
+
+.header_nav ul li a {
+    font-family: 'Montserrat-medium';
+    font-weight: 500;
+    font-size: 12px;
+    color: #191919;
+    text-transform: uppercase;
+    padding: 0 15px;
+    transition: 500ms;
+}
+
+a.active strong {
+    font-family: 'Montserrat-medium';
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--green);
+    text-transform: uppercase;
+    padding: 0 15px;
+    font-weight: 900;
+}
+
+
+.header_nav ul li a:hover {
+    color: var(--green);
+    text-decoration: none;
+}
+
+.header_nav {
+
+    background: #ffffffda;
+}
+
+.home_content {
+    background: var(--green);
+    padding: 100px 0;
+}
+
+.home_content .home_about {
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.home_content h2 {
+    font-family: var(--mons-m);
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: var(--black);
+}
+
+.home_content {
+    color: white;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.work {
+    height: -15px;
+}
+
+.work img {
+    position: relative;
+}
+
+.work .pe-7s-look {
+    background: rgba(0, 0, 0, 0.472);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    font-size: 40px;
+    transition: 500ms;
+    filter: blur(3px);
+    opacity: 0;
+
+}
+
+.work .pe-7s-look:hover {
+    opacity: 1;
+    filter: blur(0px);
+
+}
+
+.work i {
+    color: white;
+}
+
+
+
+
+footer {
+    padding: 100px 0 100px 0;
+    background: var(--black);
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    transition: 500ms;
+
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+footer p,
+a {
+    color: var(--gray);
+    font-size: 15px;
+    font-family: var(--m_pro);
+    margin: 0;
+}
+
+footer h6 {
+    font-family: var(--mons-m);
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+footer a {
+    color: var(--gray);
+    font-size: 15px;
+    font-family: var(--m_pro);
+    margin: 0;
+}
+
+/* ****************************************************************** */
+
+/* HOME END */
+
+/* ****************************************************************** */
+.results i {
+    font-size: 40px;
+    height: auto;
+}
+
+.results p {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Montserrat-medium';
+    font-size: 12px;
+}
+
+.hours {
+    text-align: center;
+}
+
+.results {
+    padding: 70px 0;
+    background: var(--green);
+}
+
+.results p,
+i {
+    color: white;
+}
+
+.about_content {
+    background: #323232;
+    padding: 100px 0;
+}
+
+.about_content .about {
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about_content h3 {
+    font-family: var(--mons-m);
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: var(--white);
+}
+
+.about_content {
+    color: white;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+
+.buy {
+    background: #f5f5f5;
+    padding: 50px 0 100px 0;
+    text-align: center;
+}
+
+.buy form fieldset {
+    text-align: center;
+}
+
+.buy p {
+    max-width: 550px;
+    margin: 0 auto;
+    margin-top: 30px;
+    line-height: 25px;
+    font-family: var(--nunito);
+    font-size: 16px;
+    color: var(--gray);
+    margin-bottom: 40px;
+
+}
+
+.buy h4 {
+    font-family: var(--mons-m);
+    font-size: 30px;
+    color: #1d1d1d;
+    margin-top: 30px;
+}
+
+
+
+.buy a {
+    text-align: center;
+}
+
+@media screen and (max-width: 830px) {
+    .cadr {
+        flex-wrap: wrap;
+    }
+
+    .cadr img {
+        margin-bottom: 30px;
+    }
+
+    .cadr .cadr_info {
+        text-align: center;
+        max-width: 500px;
+        margin: 0 auto;
+
+    }
+
+    .cadr .cadr_info .amelia_sign {
+        margin: 0 auto;
+    }
+}
+
+.amelia_sign {
+    width: 50%;
+}
+
+.cadr_info {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.cadr_info h4 {
+    font-family: var(--mons-m);
+    font-size: 30px;
+    margin-bottom: 35px;
+    color: var(--black);
+}
+
+.cadr_info p {
+    margin-bottom: 35px;
+    color: var(--gray);
+    line-height: 25px;
+    font-family: var(--nunito);
+}
+
+/* ****************************************************************** */
+
+/* ABOUT END */
+
+/* ****************************************************************** */
+
+.contacts_buy {
+    background: #f5f5f5;
+}
+
+.contacts_buy form fieldset {
+    text-align: left;
+}
+
+.contacts_buy input {
+    border: 0;
+    margin-bottom: 30px;
+
+}
+
+.contacts_buy textarea {
+    border: none;
+    min-height: 170px;
+    margin-bottom: 30px;
+}
+
+.contacts_buy button {
+    text-align: left;
+}
+
+
+.contacts_buy form fieldset .infos {
+    margin: 0 auto;
+
+}
+
+.contacts_buy form fieldset .infos input:nth-child(1) {
+    margin-right: 30px;
+}
+
+.contacts_buy form fieldset .infos input:nth-child(2) {
+    overflow: hidden;
+}
+
+.contacts_buy form fieldset .infos input {
+    box-sizing: border-box;
+}
+
+.contact_content {
+    background: var(--dark_white);
+    padding: 100px 0 ;
+}
+.contacts_buy button {
+    text-align: left;
+    margin: 0;
+}
+.map {
+    margin: 100px 0 0 0;
+}
+input {
+    padding: 20px 15px;
+}
+button.btn {
+  margin-right: auto; 
+   display: block;
+   padding: 20px 25px;
+   border-radius: 0;
+   background: #007d2f;
+}
+.infos h6 {
+    font-family: var(--mons-m);
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+.infos p {
+    color: var(--gray);
+    font-family: var(--nunito);
+    line-height: 25px;
+    margin-bottom: 35px;
+}
+@media(max-width: 1000px) {
+    .header_nav .nav_bar {
+         justify-content: center;
+     }
+     .logo_div {
+         margin: 0 auto;
+     }
+     .header_nav ul {
+        margin: 0 auto;
+        
+     }
+ }
+ @media(max-width: 412px){
+    
+    .infos {
+        flex-wrap: wrap;
+
+    }
+    .buy form fieldset .infos input:nth-child(1) {
+        margin-right: 0;
+    }
+    .contacts_buy button {
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,519 @@
+@import 'bootstrap-grid.css';
+@import 'fonts.css';
+
+:root {
+    --m_pro: 'MyraidPro';
+    --mons_r: 'Montserrat-r';
+    --mons_t: 'Montserrat-thin';
+    --mons-m: 'Montserrat-medium';
+    --nunito: 'Nunito';
+    --works: 'work_s';
+    --green: #bda126;
+    --black: #000;
+    --white: #fff;
+    --gray: #787878;
+    --dark_white: #f5f5f5;
+}
+
+*,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: var(--nunito);
+    font-weight: normal;
+    color: white;
+    font-size: 16px;
+    color: inherit;
+
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+img {
+    width: 100%;
+}
+
+header {
+    background: url(../images/header_bg.jpg) no-repeat center center /cover;
+
+    height: 100vh;
+    width: auto;
+}
+
+.header_nav {
+    padding: 15px 0;
+    margin-bottom: 0;
+}
+
+.header_nav ul li a {
+    font-family: 'Montserrat-medium';
+    font-weight: 500;
+    font-size: 12px;
+    color: #191919;
+    text-transform: uppercase;
+    padding: 0 15px;
+    transition: 500ms;
+}
+
+.header_nav ul li a:hover {
+    color: var(--green);
+    text-decoration: none;
+}
+
+.header_nav {
+
+    background: #838d80da;
+}
+
+.header_content {
+    height: 100vh;
+}
+
+.header_content h1 {
+    color: var(--black);
+    font-family: 'Montserrat-medium';
+    font-weight: 500;
+    font-size: 36px;
+    color: #191919;
+    margin-bottom: 30px;
+}
+
+.header_content p {
+    line-height: 25px;
+    color: #6d6b6b;
+    font-family: var(--mons-m);
+    font-weight: 500px;
+    margin-bottom: 50px;
+}
+
+.header_content a {
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 20px 50px;
+    border: none;
+    background: var(--green);
+    box-sizing: border-box;
+    color: white;
+    border-radius: 2px;
+}
+
+.header_content a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.about_us {
+    margin-bottom: 40px;
+}
+
+.about_us .we {
+    text-align: center;
+}
+
+.about_us .we img {
+    height: 100%;
+    width: auto;
+}
+
+.about_us .we h1 {
+
+
+    color: var(--black);
+    font-family: 'Montserrat-medium';
+    font-weight: 500;
+    font-size: 36px;
+    color: #191919;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+.about_us .we p {
+    font-family: var(--nunito);
+    font-size: 14px;
+    color: var(--gray);
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+
+.progress.skills {
+    width: 90%;
+    height: 3px;
+    
+
+}
+
+.progress-bar.design {
+    background: #007d2f;
+}
+
+.progresses h1 {
+    color: var(--black);
+    font-family: 'Montserrat-medium';
+    color: #171717;
+    margin-bottom: 40px;
+
+
+}
+
+.progresses h2 {
+    text-transform: uppercase;
+    font-family: 'Montserrat-medium';
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.progress {
+    margin-bottom: 40px;
+    background: #d8d8d8;
+}
+
+.progresses img {
+    height: auto;
+    width: 100%;
+
+}
+
+.progresses {
+    background: var(--dark_white);
+    padding: 0;
+
+}
+
+.results i {
+    font-size: 40px;
+    height: auto;
+}
+
+.results p {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Montserrat-medium';
+    font-size: 12px;
+}
+
+.hours {
+    text-align: center;
+}
+
+.results {
+    padding: 70px 0;
+    background: var(--green);
+}
+
+.results p,
+i {
+    color: white;
+}
+
+.work {
+    height: -15px;
+}
+
+.work img {
+    position: relative;
+}
+
+.work .pe-7s-look {
+    background: rgba(0, 0, 0, 0.472);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    font-size: 40px;
+    transition: 500ms;
+    filter: blur(3px);
+    opacity: 0;
+
+}
+
+.work .pe-7s-look:hover {
+    opacity: 1;
+    filter: blur(0px);
+
+}
+
+.more_ex {
+    background: var(--green);
+    margin-bottom: 50px;
+}
+
+.more_ex a {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: 'Montserrat-medium';
+    color: white;
+}
+
+.more_ex a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+.link_play {
+    text-decoration: none;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background: var(--green);
+}
+
+.link_play:hover {
+    text-decoration: none;
+}
+
+
+.link_play i {
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.process .process_content .img_process {
+    position: relative;
+}
+
+.process {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.process_main {
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.process_main h2 {
+    font-family: 'MyraidPro';
+    font-size: 44px;
+}
+
+.process_main p {
+    font-family: 'MyraidPro';
+    font-size: 22px;
+    line-height: 25px;
+    color: var(--gray);
+}
+
+.process_content .link_play {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.abilities .ability i {
+    font-size: 50px;
+    color: black;
+}
+
+.ability {
+    text-align: center;
+}
+
+.abilities {
+    background: var(--dark_white);
+    padding: 100px 0;
+}
+
+.abilities .ability h4 {
+    font-family: var(--mons-m);
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--black);
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.abilities .ability p {
+    color: var(--gray);
+    line-height: 25px;
+}
+
+.carousel {
+    height: 500px;
+    background: #007d2f;
+}
+
+.carousel-item {
+    height: 100%;
+}
+.carousel-inner {
+    height: 100%;
+}
+.carousel_quote {
+    color: white;
+    line-height: 35px;
+    font-family: var(--m_pro);
+    font-size: 20px;
+    height: 100%;
+    max-width: 620px;
+    margin: 0 auto;
+    text-align: center;
+}
+.carousel-indicators .circle {
+    width: 5px;
+    height: 5px;
+    color: rgba(255, 255, 255, 0.411);
+    border-radius: 50%;
+}
+.carousel-indicators .active.carousel-item {
+    transform: scale(1.5);
+}
+.brands {
+    margin: 66px;
+}
+.brand_img {
+    margin-bottom: 30px ;
+    display: flex; justify-content: center;
+    align-items: center;
+}
+.brand_img img {
+    width: 80%;
+    height: auto;
+}
+@media screen and (max-width: 768px) {
+    .progresses {
+        flex-wrap: wrap;
+    }
+}
+.buy {
+    background: #f5f5f5;
+    padding: 50px 0 100px 0;
+    text-align: center;
+}
+.buy form fieldset  {
+    text-align: center;
+}
+.buy p {
+    max-width: 550px;
+    margin: 0 auto;
+    margin-top: 30px;
+    line-height: 25px;
+    font-family: var(--nunito);
+    font-size: 16px;
+    color: var(--gray);
+    margin-bottom: 40px;
+
+}
+.buy h4 {
+    font-family: var(--mons-m);
+    font-size: 30px;
+    color: #1d1d1d;
+    margin-top: 30px;
+}
+.buy input {
+    border: 0;
+    margin-bottom: 30px;
+
+}
+.buy textarea {
+    border: none;
+    min-height: 170px;
+    margin-bottom: 30px;
+}
+
+.buy button {
+    text-align: center;
+}
+
+.buy form fieldset .infos {
+    margin: 0 auto;
+    
+}
+.buy form fieldset .infos input:nth-child(1){
+    margin-right: 30px;
+}
+.buy form fieldset .infos input:nth-child(2){
+    overflow: hidden;
+}
+
+.buy form fieldset .infos input{
+    box-sizing: border-box; 
+}
+footer {
+    padding: 100px 0 100px 0;
+    background: var(--black);
+    color: white;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    transition: 500ms;
+    
+}
+footer a:hover {
+    color: white;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+footer p,a {
+    color: var(--gray);
+    font-size: 15px;
+    font-family: var(--m_pro);
+    margin: 0;
+}
+footer h6 {
+    font-family: var(--mons-m);
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+footer a {
+    color: var(--gray);
+    font-size: 15px;
+    font-family: var(--m_pro);
+    margin: 0;
+}
+@media(max-width: 1000px) {
+   .header_nav .nav_bar {
+        justify-content: center;
+    }
+    .logo_div {
+        margin: 0 auto;
+    }
+}
+@media(max-width: 412px){
+    .nav_bar ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .infos {
+        flex-wrap: wrap;
+
+    }
+    .buy form fieldset .infos input:nth-child(1) {
+        margin-right: 0;
+    }
+    .header_content h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .header_content p {
+        font-size: 14px;
+    }
+    .header_content {
+        justify-content: flex-start;
+        margin-top: -60px;
+    }
+
+}
+.buy form fieldset .infos input {
+padding-right: 15px;
+padding-left: 15px;}

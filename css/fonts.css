@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'MyraidPro';
+    src: url(../fonts/8143.otf);
+}
+@font-face {
+    font-family: 'Montserrat-r';
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-thin';
+    src: url(../fonts/Montserrat/Montserrat-Thin.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-medium';
+    src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url(../fonts/Nunito_Sans/NunitoSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'work_s';
+    src: url(../fonts/Work_Sans/WorkSans-Regular.ttf);
+}
